@@ -1,7 +1,7 @@
 
 ## 使用说明 Guide
-- 本手册源代码托管在[github](https://github.com/alidayu/alidayu-handbook)
-- 关于本手册使用过程中遇到的问题,欢迎提[issue](https://github.com/alidayu/alidayu-handbook/issues),我们会尽快完善并更新手册
+- 本手册源代码托管在[github](https://github.com/luhua00/smssdk-handbook)
+- 关于本手册使用过程中遇到的问题,欢迎提[issue](https://github.com/luhua00/smssdk-handbook/issues),我们会尽快完善并更新手册
 
 ## 手册开发 Develop
 - 为支持中文搜索,本手册基于<https://github.com/codepiano/gitbook> gitbook cli开发,非基于官方gitbook
