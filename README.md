@@ -22,6 +22,7 @@
         - [更新日志](sdk/android/log.md)
 * [高级进阶使用](senior/index.md)
     - [管理中心](senior/manage-center.md)
+        - [短信设置](senior/sms-config.md)
         - [充值](senior/charge.md)
         - [自定义模板](senior/tpl-manage.md)
         - [获取发票](senior/tpl-manage.md)
@@ -33,3 +34,6 @@
     - [语音](help/voice.md)
     - [SDK](help/sdk.md)
     - [错误码](help/error-code.md)
+
+
+
