@@ -3,10 +3,9 @@
 		"path": "README.md",
 		"title": "关于手册"
 	},
-	"keywords": "阿里大鱼,帮助手册,短信,语音,验证码,短信验证码,alidayu,handbook,sms,message,voice",
+	"keywords": "Mob,帮助手册,短信,语音,验证码,短信验证码,handbook,sms,message,voice",
 	"tail": {
-		"阿里大鱼": "http://www.alidayu.com",
-		"阿里通信": "http://aliqin.tmall.com"
+		"Mob": "http://www.mob.com"
 	},
 	"links": {
 		"sharing": {
