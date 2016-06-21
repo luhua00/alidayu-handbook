@@ -1,21 +1,25 @@
 # 开发者入驻 Registration
 
-## 1. 访问阿里大鱼首页，点击“加入阿里大鱼”
-- 使用淘宝和1688账号（昵称）登录、或者使用支付宝账号（邮箱或手机）、支持阿里云账号（邮箱）登录。   
+## 1. 访问Mob官网首页(http://www.mob.com)进行注册
+- 点击右上角“注册”
+- ![注册][1]
+- 填写注册信息，输入您的邮箱地址，称呼，公司名称，手机号码等
+- ![输入注册信息][2]
+- 点击立即注册，完成注册，并跳转到确认页面
+- ![此处输入图片的描述][3]
+- 邮件地址验证成功之后我们进行登陆
 
-**注意：您用支付宝/阿里云账号首次登录阿里大鱼平台时，需激活账号，设置会员名。激活成功后需要重新打开阿里大鱼网站，重新登陆，然后按提示完成入驻**
+## 2. 访问Mob官网首页(http://www.mob.com)进行登陆
+- 点击右上角“登录”跳转到登陆页面进行登陆
+- ![此处输入图片的描述][4]
+- 输入您注册时使用的邮箱地址和密码进行登陆
 
-[![Image](http://img.alicdn.com/tps/TB1heyMLVXXXXX9XXXXXXXXXXXX-1439-718.jpg)](http://img.alicdn.com/tps/TB1heyMLVXXXXX9XXXXXXXXXXXX-1439-718.jpg)
+## 3. 入驻成功，可进入快速开始或进入后台
+- ![此处输入图片的描述][5]
 
-## 2. 通过支付宝实名认证
-- 若您的账号未经过支付宝实名认证，请根据提示完成认证。   
 
-[![Image](http://img.alicdn.com/tps/TB18Tq6JVXXXXb4XFXXXXXXXXXX-1440-501.png)](http://img.alicdn.com/tps/TB18Tq6JVXXXXb4XFXXXXXXXXXX-1440-501.png)
-
-## 3. 填写开发者有效个人信息
-
-[![Image](http://img.alicdn.com/tps/TB1jGfiJVXXXXc9XXXXXXXXXXXX-1440-717.png)](http://img.alicdn.com/tps/TB1jGfiJVXXXXc9XXXXXXXXXXXX-1440-717.png)
-
-## 4. 入驻成功，可进入快速开始或管理中心
-
-[![Image](http://img.alicdn.com/tps/i1/TB1tIGPJXXXXXbvXpXXtSuk7XXX-865-273.png)](http://img.alicdn.com/tps/i1/TB1tIGPJXXXXXbvXpXXtSuk7XXX-865-273.png)
+  [1]: http://wiki.mob.com/md/images/reg-1.png
+  [2]: http://wiki.mob.com/md/images/reg-2.png
+  [3]: http://wiki.mob.com/md/images/reg-3.png
+  [4]: http://wiki.mob.com/md/images/reg-4.png
+  [5]: http://wiki.mob.com/md/images/reg-5.png
