@@ -2,14 +2,16 @@
 
 ## 1. 获取短信SDK
 - SDK下载之后解压，等到下面文件
-- ![SDK][1]
+
+![SDK][1]
 - 1、SMSSDK：短信验证码SDK，包括静态库和本地化文件。使用时直接将这个文件夹拖入工程。
 - 2、SMSSDKDemo：示例Demo 。
 - 3、如果想要集成SMSSDK 提供的UI，直接把SMSSDKUI.xcodeproj拖到程序。
 
 ## 2. 导入SDK
 - 将SMSSDK这个文件夹拖入工程。步骤如下：
-- ![此处输入图片的描述][2]
+
+![此处输入图片的描述][2]
 
 ## 3. 添加依赖库文件
 - 必要：
@@ -42,11 +44,11 @@ AddressBookUI.framework（通讯录功能需要）
     withSecret:appSecret];
 ```
 - appKey 和 appSecret的获取：
- - 到Mob官网注册成为Mob开发者；
- - 到应用管理后台新建应用。新建应用步骤
+ - 到[Mob官网][4]注册成为Mob开发者；
+ - 到应用管理后台创建应用；
 
 ## 5. 使用SDK提供的API
-- ![此处输入图片的描述][4]
+![此处输入图片的描述][5]
 SMSSDK.h文件为SMSSDK的核心类。这个类的所有方法以类方法提供，根据需要直接使用相应的方法。
 短信UI部分是以Demo形式开源的，具体参考Demo。以下是Demo中部分UI模块的说明:
 
@@ -113,7 +115,9 @@ RegViewController* reg = [[RegViewController alloc] init];
   - 已加入的用户：可以点击添加按钮，直接添加已加入该app的通讯录好友。
   - 待邀请的用户：可以点击邀请按钮发送短信邀请好友加入该app。
 
+
   [1]: http://wiki.mob.com/wp-content/uploads/2014/09/SMSSDK.jpg
   [2]: http://wiki.mob.com/wp-content/uploads/2014/09/SMS_SKD-drag.png
   [3]: http://wiki.mob.com/wp-content/uploads/2014/09/SMSSDKAddFramework.png
-  [4]: http://wiki.mob.com/wp-content/uploads/2014/09/%E7%9F%AD%E4%BF%A1%E4%BB%A3%E7%A0%81.jpg
+  [4]: http://www.mob.com
+  [5]: http://wiki.mob.com/wp-content/uploads/2014/09/%E7%9F%AD%E4%BF%A1%E4%BB%A3%E7%A0%81.jpg
