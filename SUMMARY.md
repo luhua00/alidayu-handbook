@@ -1,7 +1,8 @@
+# 短信验证码文档中心
 * [Introduction](README.md)
 * [快速开始](start/index.md)
     - [开发者入驻](start/developer-reg.md)
-    - [应用创建](start/app-create.md)
+    - [创建应用](start/app-create.md)
     - [SDK下载](start/sdk-download.md)
 * [SDK集成](sdk/index.md)
     - [iOS集成](sdk/ios.md)

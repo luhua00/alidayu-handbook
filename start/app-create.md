@@ -1,24 +1,33 @@
 # 创建应用 Create
 
-## 1. 进入管理中心，点击右上角按钮进入“开发者控制台”
+## 1. 进入开发者后台
+- 进入Mob官网(http://www.mob.com)，点击右上角“进入后台”进行注册
 
-[![Image](http://img.alicdn.com/tps/TB1lxeMLVXXXXXeXpXXXXXXXXXX-1439-716.jpg)](http://img.alicdn.com/tps/TB1lxeMLVXXXXXeXpXXXXXXXXXX-1439-716.jpg)
-[![Image](http://img.alicdn.com/tps/TB1_K9yLVXXXXaHXVXXXXXXXXXX-1439-569.jpg)](http://img.alicdn.com/tps/TB1_K9yLVXXXXaHXVXXXXXXXXXX-1439-569.jpg)
+![进入后台][1]
 
-## 2. 点击右上角“创建应用”创建新应用
-- 应用列表中是您已经创建的应用，您可以点击应用名进入并管理该应用。
+## 2. 创建应用
 
-[![Image](http://img.alicdn.com/tps/TB1B3mILVXXXXXdXFXXXXXXXXXX-1440-556.jpg)](http://img.alicdn.com/tps/TB1B3mILVXXXXXdXFXXXXXXXXXX-1440-556.jpg)
+- 在开发后台首页点击立即使用
 
-## 3. 在已获得标签中找到阿里大鱼，点击右侧按钮创建应用
+![立即使用][2]
 
-[![Image](http://img.alicdn.com/tps/TB1AH5vLVXXXXXmaXXXXXXXXXXX-1435-620.jpg)](http://img.alicdn.com/tps/TB1AH5vLVXXXXXmaXXXXXXXXXXX-1435-620.jpg)
-[![Image](http://img.alicdn.com/tps/TB1WKyzLVXXXXa0XVXXXXXXXXXX-1437-445.jpg)](http://img.alicdn.com/tps/TB1WKyzLVXXXXa0XVXXXXXXXXXX-1437-445.jpg)
+- 弹出创建应用窗口，输入您的应用名称，并选择您的应用平台，点击添加
 
-## 4. 输入应用名称，创建应用获得AppKey
+![弹出创建应用窗口][3]
 
-[![Image](http://img.alicdn.com/tps/TB1TzCuLVXXXXaiaXXXXXXXXXXX-865-376.png)](http://img.alicdn.com/tps/TB1TzCuLVXXXXaiaXXXXXXXXXXX-865-376.png)
+- 应用创建完成之后，进入到短信验证码后台首页，这里可以看到您的Appkey，App Secret信息，之后会用到
 
-## 5. 创建应用后自动跳转至应用管理页，通过概览可以查看当前应用的APP证书，查看App Key和App Secret
+![短信验证码后台首页][4]
 
-[![Image](http://img.alicdn.com/tps/TB13oCLLVXXXXbXXpXXXXXXXXXX-1438-463.jpg)](http://img.alicdn.com/tps/TB13oCLLVXXXXbXXpXXXXXXXXXX-1438-463.jpg)
+## 3. 修改应用信息
+- 如果想更换应用名称，可以进入应用信息页面进行信息更改
+
+![应用信息][5]
+
+
+
+  [1]: http://wiki.mob.com/md/images/reg-5.png
+  [2]: http://wiki.mob.com/md/images/sms-1.png
+  [3]: http://wiki.mob.com/md/images/sms-2.png
+  [4]: http://wiki.mob.com/md/images/sms-3.png
+  [5]: http://wiki.mob.com/md/images/sms-4.png
