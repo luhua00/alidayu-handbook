@@ -38,6 +38,7 @@ AddressBookUI.framework（通讯录功能需要）
 #import <SMS_SDK/SMSSDK.h>
 ```
 - 在
+
 ```objc
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 ```
