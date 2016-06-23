@@ -1,31 +1,27 @@
 {
-	"introduction": {
-		"path": "README.md",
-		"title": "关于手册"
-	},
-	"keywords": "Mob,帮助手册,短信,语音,验证码,短信验证码,handbook,sms,message,voice",
-	"tail": {
-		"Mob": "http://www.mob.com"
-	},
-	"links": {
-		"sharing": {
-			"all": false,
-			"google": false,
-			"facebook": false,
-			"twitter": false,
-			"weibo": true,
-			"qq": true,
-			"qrcode": true
-		}
-	},
-	"plugins": [
-		"anchor-navigation",
-		"baiduana"
-
-	],
-	"pluginsConfig": {
-		"baidu": {
-			"token": "e9362ba71bb26d8efe5a1e09630b2ef3"
-		}
-	}
+    "introduction": {
+        "path": "README.md",
+        "title": "关于手册"
+    },
+    "keywords": "Mob,帮助手册,短信,语音,验证码,短信验证码,handbook,sms,message,voice",
+    "tail": {
+        "Mob": "http://www.mob.com"
+    },
+    "links": {
+        "sharing": {
+            "all": false,
+            "google": false,
+            "facebook": false,
+            "twitter": false,
+            "weibo": true,
+            "qq": true,
+            "qrcode": true
+        }
+    },
+    "plugins": [
+        "anchor-navigation",
+        "baiduana",
+        "duoshuo"
+    ],
+    "pluginsConfig": {}
 }
