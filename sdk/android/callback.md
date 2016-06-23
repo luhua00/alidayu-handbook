@@ -15,7 +15,7 @@ public void onUnregister();
 
 其中onRegister在回调对象注册的时候被触发。beforeEvent在操作执行前被触发，其参数event表示操作的类型，data是从外部传入的数据。afterEvent在操作结束时被触发，同样具备event和data参数，但是data是事件操作结果，其具体取值根据参数result而定。result是操作结果，为SMSSDK.RESULT_COMPLETE表示操作成功，为SMSSDK.RESULT_ERROR表示操作失败。
 
-1.  当result=SMSSDK.RESULT_ERROR，则data的类型为Throwable；如果服务器有返回错误码，那么这个Throwable的message就存放着服务器返回的json数据，你可以从中读取相关信息。示例如下：
+* 当result=SMSSDK.RESULT_ERROR，则data的类型为Throwable；如果服务器有返回错误码，那么这个Throwable的message就存放着服务器返回的json数据，你可以从中读取相关信息。示例如下：
 
 ```java
 //#if def{lang} == cn
@@ -38,7 +38,7 @@ try {
 }
 ```
 
-2. 当result=SMSSDK.RESULT_COMPLETE，则data的类型如下表所示。onUnregister在被反注册的时候被触发。
+* 当result=SMSSDK.RESULT_COMPLETE，则data的类型如下表所示。onUnregister在被反注册的时候被触发。
 
 <table>
 <tbody>
