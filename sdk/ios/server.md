@@ -7,16 +7,23 @@
 
 - 此接口支持
 
-SMSSDK2.0.0以上版本（包括2.0.0）。
+
+**SMSSDK2.0.0以上版本（包括2.0.0）**
+
+
 
 ## 2. 摘要
 
-- 本接口属于SMSSDK短信平台的开放验证服务,不提供短信发送服务,主要是承担验证APP使用SMSSDK发送的短信验证码，使用该接口来验证验证码是否正常。
+
+> 本接口属于SMSSDK短信平台的开放验证服务,不提供短信发送服务,主要是承担验证APP使用SMSSDK发送的短信验证码，使用该接口来验证验证码是否正常。
+
+
 
 简单梳理了一下流程，在没有短信服务端验证接口的时候，我的服务器需要知道用户是否验证成功是这样走的
 ![验证流程][1]
 
 - 引入了服务端验证接口我们可以这样走,本接口开放了第五步动作
+
 ![验证流程][2]
 
 ## 3. 接口使用
@@ -28,8 +35,9 @@ SMSSDK2.0.0以上版本（包括2.0.0）。
 ### 第二步：请求接口验证短信
 
 >请求地址为：https://webapi.sms.mob.com/sms/verify
-请求方式: POST
-请求参数
+>请求方式: POST
+>请求参数
+
 <table>
 <tbody>
 <tr>
@@ -66,6 +74,7 @@ SMSSDK2.0.0以上版本（包括2.0.0）。
 </table>
 
 - 返回结果
+
 ```js
 {status:200}
 ```
@@ -78,6 +87,7 @@ curl -d 'appkey=xxxx&amp;phone=132****8362&amp;zone=86&amp;code=xxxx'  'https://
 样例代码
 
 - php
+
 ```php
 <?php
 
@@ -126,6 +136,7 @@ function postRequest( $api, array $params = array(), $timeout = 30 ) {
 ```
 
 - C#
+
 ```c
 public static void ConnectSSL()
         {
@@ -232,6 +243,7 @@ public static void main(String[] args) throws Exception {
 ```
 
 - python
+
 ```python
 #!/usr/bin/env python
 # encoding: utf-8
