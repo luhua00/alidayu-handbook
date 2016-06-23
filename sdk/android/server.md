@@ -68,11 +68,15 @@
 
 - 返回结果
 
-`{status:200}`
+```json
+{status:200}
+```
 
 - 测试脚本
 
-`curl -d 'appkey=xxxx&amp;phone=132****8362&amp;zone=86&amp;code=xxxx' 'https://webapi.sms.mob.com/sms/verify'`
+```sh
+curl -d 'appkey=xxxx&amp;phone=132****8362&amp;zone=86&amp;code=xxxx' 'https://webapi.sms.mob.com/sms/verify'
+```
 
 ## 样例代码
 
