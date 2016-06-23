@@ -2,7 +2,9 @@
 
 注册回调：
 
-`SMSSDK.registerEventHandler(EventHandler);`
+```java
+SMSSDK.registerEventHandler(EventHandler);
+```
 
 其中的EventHandler即为操作回调。它包括4个方法，分别为：
 
@@ -87,6 +89,8 @@ try {
 
 *短信SDK采用“广播”的方式发送操作结果*。这就是说，每次调用registerEventHandler都会设置一个新的EventHandler到SDK内部，当事件发生时，这些注册进来的EventHandler都能收到信息而不会发生“后者替换前者”的问题。**为了避免EventHandler注册后不再使用而造成内存泄漏，请务必在确定不使用某个EventHandler时，调用反注册代码将其注销**，反注册的方法为：
 
-`SMSSDK.unregisterEventHandler(EventHandler);`
+```java
+SMSSDK.unregisterEventHandler(EventHandler);
+```
 
   在EventHandler的4个回调方法都可能不在UI线程下，因此如果要在其中执行UI操作，请**务必使用Handler发送一个消息给UI线程处理**。
