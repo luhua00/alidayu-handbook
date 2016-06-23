@@ -1,5 +1,5 @@
 # 短信验证码文档中心
-* [Introduction](README.md)
+* [短信验证码文档中心](README.md)
 * [快速开始](start/index.md)
     - [开发者入驻](start/developer-reg.md)
     - [创建应用](start/app-create.md)
