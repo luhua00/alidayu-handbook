@@ -49,7 +49,7 @@
 如果你需要用GUI库，则需要加入全部这四个文件，不需要可以去掉SMSSDKGUI。为了方便和ShareSDK一起集成，公共库依然打包成jar。
 如果你同时使用ShareSDK,保留一份公共库就行（公共库版本一致或兼容）。
 
-2，如何集成
+2. 如何集成
 
 Studio使用aar文件(放在SMSSDK目录下)集成，更方便快捷。步骤如下：
 
@@ -126,7 +126,7 @@ registerUser(country, phone);
 registerPage.show(context);
 ```
 
-其中EventHandler是短信SDK的操作回调，具体说明文档请参阅：[短信SDK操作回调](sdk/android/callback)章节。
+其中EventHandler是短信SDK的操作回调，具体说明文档请参阅：[短信SDK操作回调](callback.html)章节。
 
 ### 显示通信录好友列表
 同时，短信SDK也内置了通过本设备通信录换取本应用内用户列表的功能，可以通过下面的代码打开“通信录好友”页面：
@@ -137,9 +137,9 @@ ContactsPage contactsPage = new ContactsPage();
 contactsPage.show(context);
 ```
 
-## 参阅
+# 参阅
 
-1. [无GUI接口调用](sdk/android/gui)
-2. [短信SDK更新历史](sdk/android/log)
-3. [appkey防盗用须知](sdk/android/appkey)
-4. [Android 短信智能验证说明（1.3.1新增）](sdk/android/intelligent)
+1. [无GUI接口调用](gui.html)
+2. [短信SDK更新历史](log.html)
+3. [appkey防盗用须知](appkey.html)
+4. [Android 短信智能验证说明（1.3.1新增）](intelligent.html)

@@ -3,15 +3,11 @@
 ## 前言
 
 有些时候开发者需要验证服务托管自己的服务器（开发者服务器拥有校验验证码的功能），然后可以更好处理自己的业务逻辑。因此，Mob平台提供了此接口实现上述需求，供开发者使用。
-
-此接口支持
-
-SMSSDK2.0.0以上版本（包括2.0.0）。
+此接口支持SMSSDK2.0.0以上版本（包括2.0.0）。
 
 ## 摘要
 
 本接口属于SMSSDK短信平台的开放验证服务,不提供短信发送服务,主要是承担验证APP 使用SMSSDK发送的短信验证码，使用该接口来验证验证码是否正常。
-
 简单梳理了一下流程,在没有短信服务端验证接口的时候，我的服务器需要知道用户是否验证成功是这样走的
 
 ![client method](http://wiki.mob.com/wp-content/uploads/2014/12/old.png)
@@ -76,11 +72,11 @@ SMSSDK2.0.0以上版本（包括2.0.0）。
 
 - 测试脚本
 
-`curl -d 'appkey=xxxx&amp;phone=132****8362&amp;zone=86&amp;code=xxxx'  'https://webapi.sms.mob.com/sms/verify'`
+`curl -d 'appkey=xxxx&amp;phone=132****8362&amp;zone=86&amp;code=xxxx' 'https://webapi.sms.mob.com/sms/verify'`
 
 ## 样例代码
 
-### phper 请看
+* PHP
 
 ```php
 <?php
@@ -129,7 +125,7 @@ function postRequest( $api, array $params = array(), $timeout = 30 ) {
 }
 ```
 
-### C#开发者请看
+* C#
 
 感谢@金雷 开发者提供
 
@@ -164,7 +160,7 @@ function postRequest( $api, array $params = array(), $timeout = 30 ) {
         }
 ```
 
-### JAVA 开发者请看
+* JAVA
 
 样例程序: [https://github.com/tian-github/Mob_SmsSpi](https://github.com/tian-github/Mob_SmsSpi)
 
@@ -240,7 +236,7 @@ function postRequest( $api, array $params = array(), $timeout = 30 ) {
 	}
 ```
 
-### Python开发者请看
+* Python
 
 感谢@jimidata 开发者提供，谢谢支持
 
@@ -277,7 +273,7 @@ if __name__ == '__main__':
 
 ## 附录
 
-### 错误编码
+错误编码:
 
 <table>
 <tbody>
