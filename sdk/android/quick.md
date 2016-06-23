@@ -1,18 +1,21 @@
 # Android快速集成
 
-- 使用2.0.0版本请注意：
+##使用2.0.0版本请注意：
 
-1. 2.0.0版本的appkey与旧版本**不共用**，**需重新申请**
-2. 测试期间短信条数限制：20条/天，APP开发完成后务必提交到mob.com后台审核，开通完全免费短信
-3. 2.0.0之前版本的appkey无需审核，也不受此影响。
+- 2.0.0版本的appkey与旧版本**不共用**，**需重新申请**
 
-**目前检查到如果你编译的targetSdkVersion等于23，MINU的Android6.0在拒绝授权会关闭APP，所以建议用户将targetSdkVersion设成22或一下**
+- 测试期间短信条数限制：20条/天，APP开发完成后务必提交到mob.com后台审核，开通完全免费短信
 
-***
+- 2.0.0之前版本的appkey无需审核，也不受此影响。
+
+- **目前检查到如果你编译的targetSdkVersion等于23，MINU的Android6.0在拒绝授权会关闭APP，所以建议用户将targetSdkVersion设成22或一下**
+
+
 
 ## 1. 获取SDK
 
 请到[我们官网](http://www.mob.com/#/downloadDetail/SMS/android)按IDE的不同下载最新版本的SDK。我们分别提供了Android Studio和Eclipse的集成包。
+
 下载回来后解压，可以看到下面的文件结构：
 
 ![SDK目录结构](http://wiki.mob.com/wp-content/uploads/2016/06/SDK-FOLDER.png)
@@ -24,15 +27,21 @@
 - SMSSDK\_User_Guide 是官方文档的链接地址
 - Update Log.txt 是SDK更新日志
 
-附：[视频教材](http://v.youku.com/v_show/id_XODQ3MzQwMzA4.html)
+
+> 附：[视频教材](http://v.youku.com/v_show/id_XODQ3MzQwMzA4.html)
+
+
 
 ## 2. 导入SDK
 ### 2.1 Eclipse IDE
+
 短信SDK使用项目依赖的方式完成集成。具体步骤如下：
 
 1. 复制“SMSSDK”目录到您自己项目的同一目录下，并将其导入到Eclipse中（[查看视频教程](http://v.youku.com/v_show/id_XODQ3MzM5OTI4.html)）
+
 ![添加到Eclipse](http://demo.mob.com/wiki/wp-content/uploads/2014/09/smssmdk_qi_21.png)
 2. 右键您的项目，选择“属性”在弹出的窗口中侧栏选择“Android”，并在引用项目中选中“SMSSDK”（[查看视频教程](http://v.youku.com/v_show/id_XODQ3MzQwNTA0.html)）
+
 ![添加依赖](http://demo.mob.com/wiki/wp-content/uploads/2014/09/smssmdk_qi_31.png)
 
 ### 2.2 Android Studio
@@ -57,7 +66,8 @@ Studio使用aar文件(放在SMSSDK目录下)集成，更方便快捷。步骤如
 ![studio目录](http://wiki.mob.com/wp-content/uploads/2014/09/AARTest.png)
 
 2. 再在Module的build.gradle里面将libs加入仓库（repositories），然后添加依赖（dependencies ）示例如下：
-```
+
+```json
 repositories{
     flatDir{
         dirs 'libs' //就是你放aar的目录地址
@@ -75,6 +85,7 @@ dependencies {
 ## 3. 配置AndroidManifest.xml
 
 - 打开您项目的“AndroidManifest.xml”，在其中添加如下的权限：
+
 ```xml
 <uses-permission android:name="android.permission.READ_CONTACTS" />
 <uses-permission android:name="android.permission.READ_PHONE_STATE" />
@@ -88,6 +99,7 @@ dependencies {
 ```
 
 - 然后在“application”下添加如下activity：
+
 ```xml
 <activity
 android:name="com.mob.tools.MobUIShell"
@@ -102,7 +114,9 @@ android:windowSoftInputMode="stateHidden|adjustResize"/>
 
 在您的项目启动时，调用下面的代码：
 
-`SMSSDK.initSDK(this, "您的appkey", "您的appsecret");`
+```java
+SMSSDK.initSDK(this, "您的appkey", "您的appsecret");
+```
 
 ### 发送短信验证码
 短信SDK内置了开源的GUI功能，您可以通过调用下面的代码打开短信验证页面：
