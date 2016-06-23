@@ -15,6 +15,7 @@
 
 ## 3. 添加依赖库文件
 - 必要：
+
 ```objc
 libz.dylib
 libicucore.dylib
@@ -23,6 +24,7 @@ JavaScriptCore.framework
 libstdc++.dylib
 ```
 - 可选
+
 ```objc
 AddressBook.framework （通讯录功能需要）
 AddressBookUI.framework（通讯录功能需要）
