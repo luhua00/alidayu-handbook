@@ -30,14 +30,18 @@ AddressBookUI.framework（通讯录功能需要）
 ![此处输入图片的描述][3]
 ## 4. 添加初始化代码
 - 1、在appDelegate 添加
+
 ```objc
 #import <SMS_SDK/SMSSDK.h>
 ```
+
 - 在
+
 ```objc
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 ```
 - 添加
+
 ```objc
 //初始化应用，appKey和appSecret从后台申请得
    [SMSSDK registerApp:appKey
