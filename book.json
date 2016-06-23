@@ -2,7 +2,7 @@
     "plugins": [
         "anchor-navigation",
         "mob-navigation",
-        "duoshuo"
+        "-duoshuo"
     ],
     "pluginsConfig": {},
     "keywords": "Mob,帮助手册,短信,语音,验证码,短信验证码,handbook,sms,message,voice",
