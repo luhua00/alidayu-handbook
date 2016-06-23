@@ -21,7 +21,7 @@
     "plugins": [
         "anchor-navigation",
         "baiduana",
-        "duoshuo"
+        "-duoshuo"
     ],
     "pluginsConfig": {}
 }
