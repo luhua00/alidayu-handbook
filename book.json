@@ -1,33 +1,33 @@
 {
-	"title" : "短信验证码开发手册",
-	"author" : "Mob",
-	"description" : "短信验证码开发手册",
-	"introduction": {
-		"path": "README.md",
-		"title": "关于手册"
-	},
-	"keywords": "Mob,帮助手册,短信,语音,验证码,短信验证码,handbook,sms,message,voice",
-	"tail": {
-		"Mob": "http://www.mob.com"
-	},
-	"links": {
-		"sharing": {
-			"all": false,
-			"google": false,
-			"facebook": false,
-			"twitter": false,
-			"weibo": true,
-			"qq": true,
-			"qrcode": true
-		},
-		"sidebar" : {
-	        "Mob官网" : "http://www.mob.com"
-	    }
-	},
-	"plugins": [
-		"anchor-navigation",
-		"mob-navigation"
-	],
-	"pluginsConfig": {
-	}
+    "plugins": [
+        "anchor-navigation",
+        "mob-navigation",
+        "duoshuo"
+    ],
+    "pluginsConfig": {},
+    "keywords": "Mob,帮助手册,短信,语音,验证码,短信验证码,handbook,sms,message,voice",
+    "author": "Mob",
+    "tail": {
+        "Mob": "http://www.mob.com"
+    },
+    "title": "短信验证码开发手册",
+    "links": {
+        "sharing": {
+            "all": false,
+            "google": false,
+            "facebook": false,
+            "twitter": false,
+            "weibo": true,
+            "qq": true,
+            "qrcode": true
+        },
+        "sidebar": {
+            "Mob官网": "http://www.mob.com"
+        }
+    },
+    "introduction": {
+        "path": "README.md",
+        "title": "关于手册"
+    },
+    "description": "短信验证码开发手册"
 }
