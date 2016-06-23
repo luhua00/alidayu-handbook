@@ -1,15 +1,21 @@
 # 1、SMSSDK中用到的权限
 
 - 普通组
-	- android.permission.ACCESS_NETWORK_STATE
-	- android.permission.ACCESS_WIFI_STATE
-	- android.permission.INTERNET
-	- android.permission.GET_TASKS
+
+```java
+	android.permission.ACCESS_NETWORK_STATE
+	android.permission.ACCESS_WIFI_STATE
+	android.permission.INTERNET
+	android.permission.GET_TASKS
+```
 - 谨慎组
-	- android.permission.READ_PHONE_STATE
-	- android.permission.READ_SMS
-	- android.permission.READ_CONTACTS
-	- android.permission.WRITE_EXTERNAL_STORAGE
+
+```
+    android.permission.READ_PHONE_STATE
+	android.permission.READ_SMS
+	android.permission.READ_CONTACTS
+	android.permission.WRITE_EXTERNAL_STORAGE
+```
 
 这些权限一般在Manifest文件中按需加入
 
