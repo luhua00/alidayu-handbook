@@ -19,6 +19,8 @@
         - [SDK回调操作](sdk/android/callback.md)
         - [权限问题](sdk/android/access.md)
         - [AppKey防盗](sdk/android/appkey.md)
+        - [错误码参考](sdk/android/errorcode.md)
+        - [2.x.x默认规则](sdk/android/rule.md)
         - [更新日志](sdk/android/log.md)
 * [高级进阶使用](senior/index.md)
     - [管理中心](senior/manage-center.md)
