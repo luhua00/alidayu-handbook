@@ -33,6 +33,7 @@ AddressBookUI.framework（通讯录功能需要）
 ![此处输入图片的描述][3]
 ## 4. 添加初始化代码
 - 1、在appDelegate 添加
+
 ```objc
 #import <SMS_SDK/SMSSDK.h>
 ```
