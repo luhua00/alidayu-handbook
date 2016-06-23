@@ -43,6 +43,7 @@ AddressBookUI.framework（通讯录功能需要）
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 ```
 - 添加
+
 ```objc
 //初始化应用，appKey和appSecret从后台申请得
    [SMSSDK registerApp:appKey
