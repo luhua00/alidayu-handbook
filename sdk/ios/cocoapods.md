@@ -1,8 +1,10 @@
 # CocoaPods 集成SMSSDK
 ## 1. 获取AppKey
 - 如何在我们的官网注册应用得到appkey，请点击链接看里面的操作步骤。
+
 ## 2. 通过CocoaPods安装
 - 通过 CocoaPods进行安装，只需在 Podfile文件中添加，添加之后执行 pod install 命令
+
 ```
    // Mob产品公共库
    pod 'MOBFoundation_IDFA'
@@ -12,6 +14,7 @@
 
 ## 3. 快速集成
 - 获取验证码的方法
+
 ```objc
 /**
  *  @from                    v1.1.1
@@ -35,6 +38,7 @@
         }];
 ```
 - 提交验证码的方法
+
 ```objc
 /**
  * @from               v1.1.1
