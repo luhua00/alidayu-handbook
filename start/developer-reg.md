@@ -1,6 +1,6 @@
 # 开发者入驻 Registration
 
-## 1. 访问Mob官网首页(http://www.mob.com)
+## 1. 访问[Mob官网](http://www.mob.com)首页
 - 点击右上角“注册”进行注册
 
 ![注册][1]
