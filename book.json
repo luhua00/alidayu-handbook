@@ -6,7 +6,7 @@
     ],
     "pluginsConfig": {
         "duoshuo" : {
-            short_name:"mobwiki"
+            "short_name":"mobwiki"
          }
     },
     "keywords": "Mob,帮助手册,短信,语音,验证码,短信验证码,handbook,sms,message,voice",
