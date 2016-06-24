@@ -17,11 +17,13 @@
 - 可根据起始日期、结束日期创建任务
 - 起始日期小于结束日期
 
+![创建导出任务][3]
+
 ## 任务状态
 - 新建的任务为执行中
 - 后台任务执行结束，显示“导出”按钮， 即可导出
 
-![创建导出任务][3]
+
 
   [1]: http://dashboard.mob.com/#/sms/analytics/list
   [2]: http://wiki.mob.com/md/images/sms-list-1.png
