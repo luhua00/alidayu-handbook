@@ -12,6 +12,7 @@
 
 ```
     android.permission.READ_PHONE_STATE
+	android.permission.RECEIVE_SMS
 	android.permission.READ_SMS
 	android.permission.READ_CONTACTS
 	android.permission.WRITE_EXTERNAL_STORAGE
@@ -28,6 +29,7 @@
 - 如果你需要智能验证，请授权READ_PHONE_STATE，READ_SMS。
 - 如果你需要通讯录功能，请授权READ_CONTACT。
 - 如果你需要读取SD卡，请授权WRITE_EXTERNAL_STORAGE
+- 如果用到UI库中的自动读取验证码，请授权RECEIVE_SMS
 
 具体授权过程请参考官方教材:
 [http://developer.android.com/training/permissions/index.html](http://developer.android.com/training/permissions/index.html)
