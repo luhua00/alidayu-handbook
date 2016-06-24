@@ -17,7 +17,7 @@
 
 
   [1]: http://dashboard.mob.com/#/sms/config/template
-  [2]: http://mob.com/md/images/sms-template-1.png
+  [2]: http://wiki.mob.com/md/images/sms-template-1.png
   [3]: http://dashboard.mob.com/#/sms/config/setting
   [4]: http://dashboard.mob.com/#/sms/config/customsign
-  [5]: http://mob.com/md/images/sms-template-2.png
+  [5]: http://wiki.mob.com/md/images/sms-template-2.png
