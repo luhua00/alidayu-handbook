@@ -1,4 +1,4 @@
-# 模板管理
+# 模板管理 Template
 
 ## 页面地址（http://dashboard.mob.com/#/sms/config/setting）
  - 登录Mob官网后台，点击 [短信模板][1] 进入页面
