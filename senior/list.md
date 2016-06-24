@@ -2,7 +2,8 @@
 
 ## 页面地址（http://dashboard.mob.com/#/sms/analytics/list）
  - 登录Mob官网后台，点击[短信明细][1]进入页面
- ![短信明细][2]
+ 
+![短信明细][2]
 
 ## 筛选条件
 - 手机号
@@ -23,5 +24,5 @@
 ![创建导出任务][3]
 
   [1]: http://dashboard.mob.com/#/sms/analytics/list
-  [2]: http://mob.com/md/images/sms-list-1.png
-  [3]: http://mob.com/md/images/sms-list-2.png
+  [2]: http://wiki.mob.com/md/images/sms-list-1.png
+  [3]: http://wiki.mob.com/md/images/sms-list-2.png
