@@ -1,31 +1,30 @@
-# 开发者控制台 Console
+# 短信明细 SMS List
 
-阿里大鱼[开发者控制台](http://my.open.taobao.com/)主要为开发者提供应用管理功能，包括以下子功能。
+## 页面地址（http://dashboard.mob.com/#/sms/analytics/list）
+ - 登录Mob官网后台，点击[短信明细][1]进入页面
+ 
+![短信明细][2]
 
-## 概览 Sumary
-- 查看、重置APP Key / APP Secret
-- API调用数据统计
-- API权限能力介绍
+## 筛选条件
+- 手机号
+- 客户端验证/HTTP-API验证
+- 状态（默认为已发送状态，查看所有）
+- 点击“搜索”按钮，查看。
 
-## SDK下载
-- 提供以下各个语言版本SDK下载
-  - JAVA
-  - PHP
-  - Python
-  - .NET
-  - Metadata
-  - C
-  - NodeJS
+## 明细导出
+- 可因数据会很多，所以做了任务处理
+- 点击“导出”按钮，跳转到短信记录任务页面
+- 可根据起始日期、结束日期创建任务
+- 起始日期小于结束日期
 
-## 应用设置 Setting
-- 提供应用基本信息、授权、测试账号绑定、沙箱环境等功能的配置管理
+![创建导出任务][3]
 
-## 安全中心 Safe
-- 提供应用安全指数、IP白名单、操作日志、敏感操作保护等功能的配置管理
+## 任务状态
+- 新建的任务为执行中
+- 后台任务执行结束，显示“导出”按钮， 即可导出
 
-## 报表中心 Data
-- 提供SPI、API调用详情查询
 
-## 消息服务 MSG
-- [提供API返回状态订阅服务](subscribe-interface-status.md)
-- 提供消息轨迹查询、消息队列概况、TMC连接查询、消息订阅查询一系列运维服务
+
+  [1]: http://dashboard.mob.com/#/sms/analytics/list
+  [2]: http://wiki.mob.com/md/images/sms-list-1.png
+  [3]: http://wiki.mob.com/md/images/sms-list-2.png

@@ -27,7 +27,7 @@
         - [短信设置](senior/sms-config.md)
         - [充值](senior/charge.md)
         - [自定义模板](senior/tpl-manage.md)
-        - [获取发票](senior/tpl-manage.md)
+        - [获取发票](senior/invoice.md)
         - [短信明细](senior/list.md)
 * [常见问题](help/index.md)
     - [资费](help/fee.md)
