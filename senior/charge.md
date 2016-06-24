@@ -1,5 +1,5 @@
 ## 页面地址（http://dashboard.mob.com/#/sms/order/index）
-- 登录Mob官网后-短信台，点击[充值管理][1]进入页面
+- 登录Mob官网后-短信台，点击[充值管理](http://dashboard.mob.com/#/sms/order/index)进入页面
 
 ![](http://wiki.mob.com/md/images/sms-recharge-1.png)
 
