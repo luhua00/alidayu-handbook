@@ -33,25 +33,35 @@
 ## 2. 中国港澳台签名
 - 签名只包含英文和数字，不可为特殊字符，不可包含中文字符
 
+![](http://wiki.mob.com/md/images/sms-config-3.png)
+
 ## 3. 全球签名
 - 签名只包含英文和数字，不可为特殊字符，不可包含中文字符
 - 北美地区不支持
 
+![](http://wiki.mob.com/md/images/sms-config-4.png)
+
 ## 服务器验证
 - 通过开发者的服务器进行验证
+
+![](http://wiki.mob.com/md/images/sms-config-4.png)
 
 ## HTTP API接口
 - 绑定服务器IP, IP数不能大于10个
 - 输入完IP，请按回车键。
 - 未开启此开关，不可创建短信模板
 
+![](http://wiki.mob.com/md/images/sms-config-5.png)
+
 ## 智能验证
 - 开启后，若该设备待验证手机号码、手机设备唯一ID和SIM卡序列号，与上一次该设备短信验证通过的手机号码、手机设备唯一ID和SIM卡序列号完全一致。则无需进行短信验证，直接智能验证通过。（仅针对安卓设备、使用短信验证码SDKV1.3.1以上版本有效）
+
+![](http://wiki.mob.com/md/images/sms-config-6.png)
 
 ## 资费说明
 - 应用集成了2.X版本短信SDK，并且提交给我们审核通过的，短信完全免费。、
 - 集成好但未提交给我们审核通过的或审核不通过的，每天只有20条测试短信。
-- Http短信是收费标准，可至短信设置页面查看（http://dashboard.mob.com/#/sms/config/setting）
+- Http短信是收费的，可至资费页面查看
 
 
   [1]: http://dashboard.mob.com/#/sms/config/setting
