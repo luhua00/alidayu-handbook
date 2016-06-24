@@ -3,7 +3,18 @@
 ## 页面地址（http://dashboard.mob.com/#/sms/order/index）
  - 登录Mob官网后台，点击[充值管理][1]进入页面
  
- ![充值管理页面][2]
+![](http://wiki.mob.com/md/images/sms-recharge-1.png)
+
+- 点击支付宝充值按钮，弹出充值金额窗口
+
+![](http://wiki.mob.com/md/images/sms-recharge-2.png)
+
+- 输入金额之后，点击“跳转到支付宝页面进行充值”，页面进入等待状态，不要关闭当前页
+
+![](http://wiki.mob.com/md/images/sms-recharge-3.png)
+
+- 充值成功之后，跳转回到Mob页面
+
 
 ## 收费说明
 - 开发者集成使用了2.X 短信验证码SDK，国内外短信、语音短信、自定义签名短信全部免费，不收取任何短信费用。
