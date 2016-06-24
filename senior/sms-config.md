@@ -1,4 +1,4 @@
-# 短信后台控制信息
+# 短信后台控制信息 Setting
 
 ## 页面地址（http://dashboard.mob.com/#/sms/config/setting）
  - 登录Mob官网后台，点击[短信设置][1]进入页面
