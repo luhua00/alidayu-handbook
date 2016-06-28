@@ -1,3 +1,9 @@
+---
+date: 2016-06-28 15:12
+status: public
+title: 短信验证码文档中心
+---
+
 # 短信验证码文档中心
 * [短信验证码文档中心](README.md)
 * [快速开始](start/index.md)
@@ -8,7 +14,6 @@
     - [iOS集成](sdk/ios.md)
         - [快速集成](sdk/ios/quick.md)
         - [无GUI集成](sdk/ios/gui.md)
-        - [服务端验证](sdk/ios/server.md)
         - [CocoaPods方式集成](sdk/ios/cocoapods.md)
         - [更新日志](sdk/ios/log.md)
     - [Android集成](sdk/android.md)
@@ -34,9 +39,3 @@
     - [语音](help/voice.md)
     - [SDK](help/sdk.md)
     - [错误码](help/error-code.md)
-
-
-
-
-
-

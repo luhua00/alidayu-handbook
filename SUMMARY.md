@@ -1,3 +1,9 @@
+---
+date: 2016-06-28 15:03
+status: public
+title: 短信验证码文档中心
+---
+
 # 短信验证码文档中心
 * [短信验证码文档中心](README.md)
 * [快速开始](start/index.md)
@@ -29,6 +35,11 @@
         - [自定义模板](senior/tpl-manage.md)
         - [获取发票](senior/invoice.md)
         - [短信明细](senior/list.md)
+- [服务端验证接口](senior/server/server-verify.md)
+- [Web-api接口](senior/manage-center.md)
+        - [发送文本验证码](senior/web/send-text.md)
+        - [校验文本验证码](senior/web/check-code.md)
+- [自定短信接口](senior/custom/send-custom.md)
 * [常见问题](help/index.md)
     - [资费](help/fee.md)
     - [账号](help/account.md)
@@ -36,5 +47,3 @@
     - [语音](help/voice.md)
     - [SDK](help/sdk.md)
     - [错误码](help/error-code.md)
-
-
