@@ -1,9 +1,3 @@
----
-date: 2016-06-28 15:12
-status: public
-title: 短信验证码文档中心
----
-
 # 短信验证码文档中心
 * [短信验证码文档中心](README.md)
 * [快速开始](start/index.md)
