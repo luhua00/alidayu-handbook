@@ -1,9 +1,3 @@
----
-date: 2016-06-27 13:45
-status: public
-title: fee
----
-
 # 资费
 
 ## 1.1 MOB-SMS 收取哪些费用？
