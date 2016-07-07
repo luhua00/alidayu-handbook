@@ -18,7 +18,7 @@
 
 开发者后台 --> 充值管理 --> 支付宝充值
 
-![](~/充值.png)
+![](http://wiki.mob.com/md/images/pay.png)
 
 ## 2. 国家价格表
 
