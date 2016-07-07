@@ -1,9 +1,3 @@
----
-date: 2016-06-28 17:27
-status: public
-title: Web-Api验证文本验证码
----
-
 # Web-Api验证文本验证码接口
 
 ## 前言
