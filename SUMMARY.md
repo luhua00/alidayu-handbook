@@ -36,8 +36,3 @@
    - [自定短信接口](senior/custom/send-custom.md)
 * [常见问题](help/index.md)
     - [资费](help/fee.md)
-    - [账号](help/account.md)
-    - [短信](help/sms.md)
-    - [语音](help/voice.md)
-    - [SDK](help/sdk.md)
-    - [错误码](help/error-code.md)
