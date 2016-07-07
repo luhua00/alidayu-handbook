@@ -1,9 +1,3 @@
----
-date: 2016-06-28 13:46
-status: public
-title: 短信 Sms
----
-
 # 短信 Sms
 
 ## 1. 短信签名
