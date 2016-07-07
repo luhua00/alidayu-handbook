@@ -1,9 +1,3 @@
----
-date: 2016-06-27 14:28
-status: public
-title: '短信后台控制信息 Setting'
----
-
 # 短信后台控制信息 Setting
 
 ## 页面地址（http://dashboard.mob.com/#/sms/config/setting）
